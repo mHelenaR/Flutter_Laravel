@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'App Flutter',
-      home: !isLoggedIn ? LoginScreen() : const Dashboard(),
+      home: !isLoggedIn ? LoginScreen() : Dashboard(),
     );
   }
 }
